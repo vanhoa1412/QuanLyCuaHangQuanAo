@@ -65,8 +65,10 @@ SELECT * FROM Cloth;
 SELECT * FROM Bill;
 INSERT INTO Users VALUES
 	('1', '1@gmail.com', '1', 'Admin');
+INSERT INTO Users VALUES
+	('3', '3@gmail.com', '3', 'Admin');
 Drop Table Category;
 Drop Table Brand
 Drop Table  Bill;
-Drop Table Cloth;
+Drop Table Users;
 
